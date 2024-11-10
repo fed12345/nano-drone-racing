@@ -10,19 +10,18 @@ In this repository, we introduce an initial framework for a cutting-edge softwar
 
 [Vision Net](https://github.com/fed12345/visionnet): Repository for training and deployment of this vision network
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="files\gatenet.png" alt="Figure 1" width="45%">
-  <img src="files\gatenetresults.png" alt="Figure 2" width="45%">
-</div>
+<img src="files\gatenet.png" alt="Figure 1" width="45%">
+
+<img src="files\gatenetresults.png" alt="Figure 2" width="45%">
+
 
 - **Reinforcement Learning-based Guidance and Control**: A second neural network, trained through reinforcement learning, handles the drone’s guidance and control functions. This network runs at an impressive rate of 167Hz on an STM32F405 processor, outputting attitude rates and thrust values for an attitude rate PID controller.
   
 [Control Net](https://github.com/fed12345/controlnet): Repository for training and deployment of the control network
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="files\controlnet.png" alt="Figure 1" width="45%">
-  <img src="files\controlnetresults.png" alt="Figure 2" width="45%">
-</div>
+
+<img src="files\controlnetresults.png" alt="Figure 2" width="45%">
+
 
 ## Findings and Insights
 
