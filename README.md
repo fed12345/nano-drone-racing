@@ -23,6 +23,7 @@ In this repository, we introduce an initial framework for a cutting-edge softwar
   <img src="files\controlnet.png" alt="Figure 1" width="45%">
   <img src="files\controlnetresults.png" alt="Figure 2" width="45%">
 </div>
+
 ## Findings and Insights
 
 Our findings demonstrate that state-of-the-art neural networks for autonomous drone racing can be effectively deployed on nano drones, even with limited processing power. However, the study also highlights specific limitations, such as the perception network’s sensitivity to bright areas (e.g., white pixels), which can impact performance when intense light sources are present. These insights emphasize the importance of comprehensive dataset composition and diverse training scenarios to enhance neural network robustness and reliability for autonomous nano drone racing.
