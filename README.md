@@ -2,7 +2,7 @@
 
 In this repository, we introduce an initial framework for a cutting-edge software platform designed to enable autonomous racing capabilities in nano drones. By integrating neural networks optimized for real-time processing on resource-constrained hardware, this framework addresses the unique challenges of autonomous drone racing in a highly efficient manner. 
 
-[Paper](files/Modular_Neural_Network_Navigatiom.pdf)
+[Paper](files/Modular_Neural_Network_Navigation.pdf)
 
 ## Key Components
 
