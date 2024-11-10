@@ -10,11 +10,19 @@ In this repository, we introduce an initial framework for a cutting-edge softwar
 
 [Vision Net](https://github.com/fed12345/visionnet): Repository for training and deployment of this vision network
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="files\gatenet.png" alt="Figure 1" width="45%">
+  <img src="files\gatenetresults.png" alt="Figure 2" width="45%">
+</div>
 
 - **Reinforcement Learning-based Guidance and Control**: A second neural network, trained through reinforcement learning, handles the drone’s guidance and control functions. This network runs at an impressive rate of 167Hz on an STM32F405 processor, outputting attitude rates and thrust values for an attitude rate PID controller.
   
 [Control Net](https://github.com/fed12345/controlnet): Repository for training and deployment of the control network
 
+<div style="display: flex; justify-content: space-around;">
+  <img src="files\controlnet.png" alt="Figure 1" width="45%">
+  <img src="files\controlnetresults.png" alt="Figure 2" width="45%">
+</div>
 ## Findings and Insights
 
 Our findings demonstrate that state-of-the-art neural networks for autonomous drone racing can be effectively deployed on nano drones, even with limited processing power. However, the study also highlights specific limitations, such as the perception network’s sensitivity to bright areas (e.g., white pixels), which can impact performance when intense light sources are present. These insights emphasize the importance of comprehensive dataset composition and diverse training scenarios to enhance neural network robustness and reliability for autonomous nano drone racing.
